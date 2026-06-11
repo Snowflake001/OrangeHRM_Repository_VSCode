@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="22.176" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="OrangeHRM User Login" name="Successful login with valid credentials" time="9.506">
-<system-out><![CDATA[
-Given user navigates to OrangeHRM login page................................passed
-When user enters username "Admin"...........................................passed
-And user enters password "admin123".........................................passed
-And user clicks login button................................................passed
-Then user should see the dashboard page.....................................passed
-And user should see the page title "OrangeHRM"..............................passed
-]]></system-out>
-</testcase>
-<testcase classname="OrangeHRM User Login" name="Login and verify current URL" time="7.477">
-<system-out><![CDATA[
-Given user navigates to OrangeHRM login page................................passed
-When user enters username "Admin"...........................................passed
-And user enters password "admin123".........................................passed
-And user clicks login button................................................passed
-Then user should be redirected to dashboard URL.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="OrangeHRM User Login" name="Verify login page is displayed" time="4.982">
+<testsuite name="Cucumber" time="11.682" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="OrangeHRM User Login" name="Verify login page is displayed" time="11.485">
 <system-out><![CDATA[
 Given user navigates to OrangeHRM login page................................passed
 Then login page should be displayed.........................................passed
+When user enters username "Admin"...........................................passed
+And user enters password "admin1234"........................................passed
+And user clicks login button................................................passed
+Then user should not be redirected to dashboard URL.........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

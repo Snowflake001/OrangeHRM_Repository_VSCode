@@ -19,7 +19,10 @@ Feature: OrangeHRM User Login
     And user clicks login button
     Then user should be redirected to dashboard URL
 
+ @smoke
   Scenario: Verify login page is displayed
     Then login page should be displayed
+    When user enters username "Admin"
     And user enters password "admin1234"
     And user clicks login button
+    Then user should not be redirected to dashboard URL

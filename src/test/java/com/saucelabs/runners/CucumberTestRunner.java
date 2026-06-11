@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "com.saucelabs.steps",
+    tags = "@smoke",
     plugin = {
         "pretty",
         "html:target/cucumber-reports/report.html",

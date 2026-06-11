@@ -33,6 +33,9 @@ public class LoginPage {
     
     @FindBy(xpath = "//div[@class='oxd-alert oxd-alert--error']")
     private WebElement errorMessage;
+
+    @FindBy(xpath = "//div[@class='oxd-alert-content oxd-alert-content--error']/p")
+    private WebElement errorMessageforcreds;
     
     @FindBy(tagName = "h5")
     private WebElement pageTitle;
@@ -93,7 +96,14 @@ public class LoginPage {
             return "";
         }
     }
-    
+     public String getErrorMessageforInvalidCredentials() {
+        try {
+            return errorMessageforcreds.getText();
+        } catch (Exception e) {
+            logger.warn("Error message not found: {}", e.getMessage());
+            return "";
+        }
+    }
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }

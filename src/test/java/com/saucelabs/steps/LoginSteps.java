@@ -97,6 +97,13 @@ public class LoginSteps {
         logger.info("Current URL: {}", currentUrl);
         assertTrue("URL should contain 'dashboard'", currentUrl.contains("dashboard"));
     }
+    @Then("user should not be redirected to dashboard URL")
+    public void userShouldNotBeRedirectedToDashboard() {
+        logger.info("Step: Verify error message for invalid credentials");
+        String errorMsg = loginPage.getErrorMessageforInvalidCredentials();
+        logger.info("Error message: {}", errorMsg);
+        assertFalse("Error message should be displayed", errorMsg.isEmpty());
+    }
     
     @Then("login page should be displayed")
     public void loginPageShouldBeDisplayed() {
