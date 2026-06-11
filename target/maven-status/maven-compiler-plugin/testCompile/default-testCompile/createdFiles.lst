@@ -1,0 +1,7 @@
+com\saucelabs\BaseTest.class
+com\saucelabs\steps\LoginSteps.class
+com\saucelabs\pages\LoginPage.class
+com\saucelabs\runners\CucumberTestRunner.class
+com\saucelabs\WebDriverFactory.class
+com\saucelabs\pages\DashboardPage.class
+com\saucelabs\SampleWebTest.class

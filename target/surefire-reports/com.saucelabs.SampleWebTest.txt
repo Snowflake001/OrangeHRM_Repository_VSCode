@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.saucelabs.SampleWebTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.742 s - in com.saucelabs.SampleWebTest
