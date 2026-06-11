@@ -1,0 +1,872 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.saucelabs:sauce-automation >-------------------
+[INFO] Building Sauce Labs Automation 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar
+Progress (1): 0.9/739 kB
+Progress (1): 2.3/739 kB
+Progress (1): 3.6/739 kB
+Progress (1): 5.0/739 kB
+Progress (1): 6.4/739 kB
+Progress (1): 7.7/739 kB
+Progress (1): 9.1/739 kB
+Progress (1): 10/739 kB 
+Progress (1): 12/739 kB
+Progress (1): 13/739 kB
+Progress (1): 15/739 kB
+Progress (1): 15/739 kB
+Progress (1): 17/739 kB
+Progress (1): 18/739 kB
+Progress (1): 20/739 kB
+Progress (1): 21/739 kB
+Progress (1): 22/739 kB
+Progress (1): 24/739 kB
+Progress (1): 25/739 kB
+Progress (1): 26/739 kB
+Progress (1): 28/739 kB
+Progress (1): 29/739 kB
+Progress (1): 31/739 kB
+Progress (1): 32/739 kB
+Progress (1): 33/739 kB
+Progress (1): 35/739 kB
+Progress (1): 36/739 kB
+Progress (1): 37/739 kB
+Progress (1): 39/739 kB
+Progress (1): 40/739 kB
+Progress (1): 41/739 kB
+Progress (1): 43/739 kB
+Progress (1): 44/739 kB
+Progress (1): 46/739 kB
+Progress (1): 47/739 kB
+Progress (1): 48/739 kB
+Progress (1): 50/739 kB
+Progress (1): 51/739 kB
+Progress (1): 52/739 kB
+Progress (1): 54/739 kB
+Progress (1): 55/739 kB
+Progress (1): 59/739 kB
+Progress (1): 64/739 kB
+Progress (1): 68/739 kB
+Progress (1): 72/739 kB
+Progress (1): 76/739 kB
+Progress (1): 81/739 kB
+Progress (1): 85/739 kB
+Progress (1): 89/739 kB
+Progress (1): 93/739 kB
+Progress (1): 97/739 kB
+Progress (1): 102/739 kB
+Progress (1): 106/739 kB
+Progress (1): 110/739 kB
+Progress (1): 114/739 kB
+Progress (1): 119/739 kB
+Progress (1): 123/739 kB
+Progress (1): 127/739 kB
+Progress (1): 131/739 kB
+Progress (1): 136/739 kB
+Progress (1): 140/739 kB
+Progress (1): 144/739 kB
+Progress (1): 147/739 kB
+Progress (1): 151/739 kB
+Progress (1): 155/739 kB
+Progress (1): 159/739 kB
+Progress (1): 163/739 kB
+Progress (1): 168/739 kB
+Progress (1): 172/739 kB
+Progress (1): 176/739 kB
+Progress (1): 180/739 kB
+Progress (1): 185/739 kB
+Progress (1): 189/739 kB
+Progress (1): 193/739 kB
+Progress (1): 197/739 kB
+Progress (1): 202/739 kB
+Progress (1): 206/739 kB
+Progress (1): 210/739 kB
+Progress (1): 214/739 kB
+Progress (1): 218/739 kB
+Progress (1): 223/739 kB
+Progress (1): 239/739 kB
+Progress (1): 255/739 kB
+Progress (1): 272/739 kB
+Progress (1): 278/739 kB
+Progress (1): 294/739 kB
+Progress (1): 310/739 kB
+Progress (1): 327/739 kB
+Progress (1): 343/739 kB
+Progress (1): 360/739 kB
+Progress (1): 376/739 kB
+Progress (1): 392/739 kB
+Progress (1): 409/739 kB
+Progress (1): 425/739 kB
+Progress (1): 441/739 kB
+Progress (1): 458/739 kB
+Progress (1): 474/739 kB
+Progress (1): 491/739 kB
+Progress (1): 507/739 kB
+Progress (1): 523/739 kB
+Progress (1): 540/739 kB
+Progress (1): 556/739 kB
+Progress (1): 573/739 kB
+Progress (1): 589/739 kB
+Progress (1): 605/739 kB
+Progress (1): 622/739 kB
+Progress (1): 638/739 kB
+Progress (1): 654/739 kB
+Progress (1): 671/739 kB
+Progress (1): 687/739 kB
+Progress (1): 704/739 kB
+Progress (1): 720/739 kB
+Progress (1): 736/739 kB
+Progress (1): 739 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar (739 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/22.0.0/messages-22.0.0.jar
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (1): 0.6/2.9 MB
+Progress (1): 0.6/2.9 MB
+Progress (1): 0.6/2.9 MB
+Progress (1): 0.6/2.9 MB
+Progress (1): 0.6/2.9 MB
+Progress (1): 0.6/2.9 MB
+Progress (1): 0.7/2.9 MB
+Progress (1): 0.7/2.9 MB
+Progress (1): 0.7/2.9 MB
+Progress (1): 0.7/2.9 MB
+Progress (1): 0.7/2.9 MB
+Progress (1): 0.7/2.9 MB
+Progress (1): 0.8/2.9 MB
+Progress (1): 0.8/2.9 MB
+Progress (1): 0.8/2.9 MB
+Progress (1): 0.8/2.9 MB
+Progress (1): 0.8/2.9 MB
+Progress (1): 0.8/2.9 MB
+Progress (1): 0.9/2.9 MB
+Progress (1): 0.9/2.9 MB
+Progress (1): 0.9/2.9 MB
+Progress (1): 0.9/2.9 MB
+Progress (1): 0.9/2.9 MB
+Progress (1): 0.9/2.9 MB
+Progress (1): 1.0/2.9 MB
+Progress (1): 1.0/2.9 MB
+Progress (1): 1.0/2.9 MB
+Progress (1): 1.0/2.9 MB
+Progress (1): 1.0/2.9 MB
+Progress (1): 1.0/2.9 MB
+Progress (1): 1.1/2.9 MB
+Progress (1): 1.1/2.9 MB
+Progress (1): 1.1/2.9 MB
+Progress (1): 1.1/2.9 MB
+Progress (1): 1.1/2.9 MB
+Progress (2): 1.1/2.9 MB | 0.9/28 kB
+Progress (2): 1.1/2.9 MB | 2.3/28 kB
+Progress (2): 1.1/2.9 MB | 3.6/28 kB
+Progress (2): 1.1/2.9 MB | 5.0/28 kB
+Progress (2): 1.1/2.9 MB | 6.4/28 kB
+Progress (2): 1.1/2.9 MB | 7.7/28 kB
+Progress (2): 1.1/2.9 MB | 9.1/28 kB
+Progress (2): 1.1/2.9 MB | 10/28 kB 
+Progress (2): 1.1/2.9 MB | 12/28 kB
+Progress (2): 1.1/2.9 MB | 13/28 kB
+Progress (2): 1.1/2.9 MB | 15/28 kB
+Progress (2): 1.1/2.9 MB | 16/28 kB
+Progress (2): 1.1/2.9 MB | 17/28 kB
+Progress (2): 1.1/2.9 MB | 19/28 kB
+Progress (2): 1.1/2.9 MB | 20/28 kB
+Progress (2): 1.1/2.9 MB | 21/28 kB
+Progress (2): 1.1/2.9 MB | 23/28 kB
+Progress (2): 1.1/2.9 MB | 24/28 kB
+Progress (2): 1.1/2.9 MB | 25/28 kB
+Progress (2): 1.1/2.9 MB | 27/28 kB
+Progress (2): 1.1/2.9 MB | 28 kB   
+Progress (3): 1.1/2.9 MB | 28 kB | 0.9/111 kB
+Progress (4): 1.1/2.9 MB | 28 kB | 0.9/111 kB | 0.9/90 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 0.9/111 kB | 0.9/90 kB | 0.9/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 0.9/111 kB | 2.3/90 kB | 0.9/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 2.3/111 kB | 2.3/90 kB | 0.9/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 2.3/111 kB | 3.6/90 kB | 0.9/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 3.6/111 kB | 3.6/90 kB | 0.9/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 3.6/111 kB | 3.6/90 kB | 2.3/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 5.0/111 kB | 3.6/90 kB | 2.3/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 5.0/111 kB | 5.0/90 kB | 2.3/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 6.4/111 kB | 5.0/90 kB | 2.3/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 6.4/111 kB | 5.0/90 kB | 3.6/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 7.7/111 kB | 5.0/90 kB | 3.6/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 7.7/111 kB | 6.4/90 kB | 3.6/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 9.1/111 kB | 6.4/90 kB | 3.6/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 9.1/111 kB | 6.4/90 kB | 5.0/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 9.1/111 kB | 7.7/90 kB | 5.0/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 9.1/111 kB | 7.7/90 kB | 6.4/7.3 kB
+Progress (5): 1.1/2.9 MB | 28 kB | 10/111 kB | 7.7/90 kB | 6.4/7.3 kB 
+Progress (5): 1.1/2.9 MB | 28 kB | 10/111 kB | 7.7/90 kB | 7.3 kB    
+Progress (5): 1.1/2.9 MB | 28 kB | 10/111 kB | 9.1/90 kB | 7.3 kB
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar (28 kB at 156 kB/s)
+Progress (4): 1.1/2.9 MB | 12/111 kB | 9.1/90 kB | 7.3 kB
+                                                         
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar
+Progress (4): 1.1/2.9 MB | 12/111 kB | 10/90 kB | 7.3 kB
+Progress (4): 1.1/2.9 MB | 13/111 kB | 10/90 kB | 7.3 kB
+Progress (4): 1.1/2.9 MB | 13/111 kB | 11/90 kB | 7.3 kB
+Progress (4): 1.1/2.9 MB | 13/111 kB | 11/90 kB | 7.3 kB
+Progress (4): 1.1/2.9 MB | 15/111 kB | 11/90 kB | 7.3 kB
+Progress (4): 1.1/2.9 MB | 15/111 kB | 13/90 kB | 7.3 kB
+Progress (4): 1.1/2.9 MB | 15/111 kB | 14/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 15/111 kB | 14/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 16/111 kB | 14/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 16/111 kB | 15/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 17/111 kB | 15/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 17/111 kB | 15/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 19/111 kB | 15/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 19/111 kB | 17/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 20/111 kB | 17/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 20/111 kB | 18/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 21/111 kB | 18/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 21/111 kB | 20/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 23/111 kB | 20/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 23/111 kB | 20/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 23/111 kB | 21/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 24/111 kB | 21/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 24/111 kB | 21/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 24/111 kB | 22/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 26/111 kB | 22/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 26/111 kB | 24/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 27/111 kB | 24/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 27/111 kB | 25/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 27/111 kB | 25/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 28/111 kB | 25/90 kB | 7.3 kB
+Progress (4): 1.2/2.9 MB | 28/111 kB | 26/90 kB | 7.3 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar (7.3 kB at 38 kB/s)
+Progress (3): 1.2/2.9 MB | 28/111 kB | 28/90 kB
+Progress (3): 1.2/2.9 MB | 30/111 kB | 28/90 kB
+                                               
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar
+Progress (3): 1.2/2.9 MB | 31/111 kB | 28/90 kB
+Progress (3): 1.2/2.9 MB | 31/111 kB | 29/90 kB
+Progress (3): 1.2/2.9 MB | 32/111 kB | 29/90 kB
+Progress (3): 1.2/2.9 MB | 32/111 kB | 31/90 kB
+Progress (3): 1.2/2.9 MB | 33/111 kB | 31/90 kB
+Progress (3): 1.2/2.9 MB | 33/111 kB | 31/90 kB
+Progress (3): 1.2/2.9 MB | 35/111 kB | 31/90 kB
+Progress (3): 1.2/2.9 MB | 35/111 kB | 32/90 kB
+Progress (3): 1.2/2.9 MB | 36/111 kB | 32/90 kB
+Progress (3): 1.2/2.9 MB | 36/111 kB | 33/90 kB
+Progress (3): 1.2/2.9 MB | 37/111 kB | 33/90 kB
+Progress (3): 1.2/2.9 MB | 37/111 kB | 35/90 kB
+Progress (3): 1.2/2.9 MB | 39/111 kB | 35/90 kB
+Progress (3): 1.2/2.9 MB | 39/111 kB | 36/90 kB
+Progress (3): 1.2/2.9 MB | 40/111 kB | 36/90 kB
+Progress (3): 1.2/2.9 MB | 40/111 kB | 37/90 kB
+Progress (3): 1.2/2.9 MB | 41/111 kB | 37/90 kB
+Progress (3): 1.2/2.9 MB | 41/111 kB | 39/90 kB
+Progress (3): 1.2/2.9 MB | 43/111 kB | 39/90 kB
+Progress (3): 1.2/2.9 MB | 43/111 kB | 40/90 kB
+Progress (3): 1.2/2.9 MB | 44/111 kB | 40/90 kB
+Progress (3): 1.2/2.9 MB | 44/111 kB | 41/90 kB
+Progress (3): 1.2/2.9 MB | 46/111 kB | 41/90 kB
+Progress (3): 1.2/2.9 MB | 46/111 kB | 43/90 kB
+Progress (3): 1.2/2.9 MB | 47/111 kB | 43/90 kB
+Progress (3): 1.2/2.9 MB | 47/111 kB | 44/90 kB
+Progress (3): 1.2/2.9 MB | 48/111 kB | 44/90 kB
+Progress (3): 1.2/2.9 MB | 48/111 kB | 46/90 kB
+Progress (3): 1.2/2.9 MB | 50/111 kB | 46/90 kB
+Progress (3): 1.2/2.9 MB | 50/111 kB | 47/90 kB
+Progress (3): 1.2/2.9 MB | 51/111 kB | 47/90 kB
+Progress (3): 1.2/2.9 MB | 51/111 kB | 48/90 kB
+Progress (3): 1.2/2.9 MB | 52/111 kB | 48/90 kB
+Progress (3): 1.2/2.9 MB | 52/111 kB | 50/90 kB
+Progress (3): 1.2/2.9 MB | 54/111 kB | 50/90 kB
+Progress (3): 1.2/2.9 MB | 54/111 kB | 51/90 kB
+Progress (3): 1.2/2.9 MB | 55/111 kB | 51/90 kB
+Progress (3): 1.2/2.9 MB | 55/111 kB | 52/90 kB
+Progress (3): 1.3/2.9 MB | 55/111 kB | 52/90 kB
+Progress (3): 1.3/2.9 MB | 55/111 kB | 54/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 54/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 55/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.3/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.4/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.5/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.5/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.5/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.5/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.5/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.5/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 59/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 64/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 64/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 68/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 68/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 72/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 72/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 76/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 80/111 kB | 59/90 kB
+Progress (3): 1.6/2.9 MB | 80/111 kB | 64/90 kB
+Progress (3): 1.6/2.9 MB | 80/111 kB | 64/90 kB
+Progress (3): 1.6/2.9 MB | 80/111 kB | 68/90 kB
+Progress (3): 1.6/2.9 MB | 80/111 kB | 72/90 kB
+Progress (3): 1.6/2.9 MB | 85/111 kB | 72/90 kB
+Progress (3): 1.6/2.9 MB | 89/111 kB | 72/90 kB
+Progress (3): 1.6/2.9 MB | 89/111 kB | 72/90 kB
+Progress (3): 1.6/2.9 MB | 93/111 kB | 72/90 kB
+Progress (3): 1.7/2.9 MB | 93/111 kB | 72/90 kB
+Progress (3): 1.7/2.9 MB | 93/111 kB | 76/90 kB
+Progress (3): 1.7/2.9 MB | 93/111 kB | 81/90 kB
+Progress (3): 1.7/2.9 MB | 97/111 kB | 81/90 kB
+Progress (3): 1.7/2.9 MB | 102/111 kB | 81/90 kB
+Progress (3): 1.7/2.9 MB | 106/111 kB | 81/90 kB
+Progress (3): 1.7/2.9 MB | 106/111 kB | 85/90 kB
+Progress (3): 1.7/2.9 MB | 106/111 kB | 85/90 kB
+Progress (3): 1.7/2.9 MB | 106/111 kB | 89/90 kB
+Progress (3): 1.7/2.9 MB | 106/111 kB | 90 kB   
+Progress (3): 1.7/2.9 MB | 106/111 kB | 90 kB
+Progress (3): 1.7/2.9 MB | 110/111 kB | 90 kB
+Progress (3): 1.7/2.9 MB | 111 kB | 90 kB    
+Progress (3): 1.7/2.9 MB | 111 kB | 90 kB
+Progress (3): 1.7/2.9 MB | 111 kB | 90 kB
+Progress (3): 1.7/2.9 MB | 111 kB | 90 kB
+Progress (3): 1.7/2.9 MB | 111 kB | 90 kB
+Progress (3): 1.8/2.9 MB | 111 kB | 90 kB
+Progress (3): 1.8/2.9 MB | 111 kB | 90 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/22.0.0/messages-22.0.0.jar (90 kB at 343 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar (111 kB at 418 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar
+Progress (1): 1.8/2.9 MB
+Progress (2): 1.8/2.9 MB | 0.9/79 kB
+Progress (2): 1.8/2.9 MB | 2.3/79 kB
+Progress (2): 1.8/2.9 MB | 3.6/79 kB
+Progress (2): 1.8/2.9 MB | 5.0/79 kB
+Progress (2): 1.8/2.9 MB | 6.4/79 kB
+Progress (2): 1.8/2.9 MB | 7.7/79 kB
+Progress (2): 1.8/2.9 MB | 9.1/79 kB
+Progress (2): 1.8/2.9 MB | 10/79 kB 
+Progress (2): 1.8/2.9 MB | 12/79 kB
+Progress (2): 1.8/2.9 MB | 13/79 kB
+Progress (2): 1.8/2.9 MB | 15/79 kB
+Progress (2): 1.8/2.9 MB | 16/79 kB
+Progress (2): 1.8/2.9 MB | 17/79 kB
+Progress (2): 1.8/2.9 MB | 19/79 kB
+Progress (2): 1.8/2.9 MB | 20/79 kB
+Progress (2): 1.8/2.9 MB | 21/79 kB
+Progress (2): 1.8/2.9 MB | 23/79 kB
+Progress (2): 1.8/2.9 MB | 24/79 kB
+Progress (3): 1.8/2.9 MB | 24/79 kB | 0.9/13 kB
+Progress (3): 1.8/2.9 MB | 25/79 kB | 0.9/13 kB
+Progress (3): 1.8/2.9 MB | 25/79 kB | 2.3/13 kB
+Progress (3): 1.8/2.9 MB | 27/79 kB | 2.3/13 kB
+Progress (3): 1.8/2.9 MB | 27/79 kB | 3.6/13 kB
+Progress (3): 1.8/2.9 MB | 27/79 kB | 3.6/13 kB
+Progress (3): 1.8/2.9 MB | 31/79 kB | 3.6/13 kB
+Progress (3): 1.8/2.9 MB | 31/79 kB | 5.0/13 kB
+Progress (3): 1.8/2.9 MB | 35/79 kB | 5.0/13 kB
+Progress (3): 1.8/2.9 MB | 35/79 kB | 6.4/13 kB
+Progress (3): 1.8/2.9 MB | 40/79 kB | 6.4/13 kB
+Progress (3): 1.8/2.9 MB | 40/79 kB | 7.7/13 kB
+Progress (3): 1.8/2.9 MB | 44/79 kB | 7.7/13 kB
+Progress (3): 1.8/2.9 MB | 44/79 kB | 9.1/13 kB
+Progress (3): 1.8/2.9 MB | 44/79 kB | 9.1/13 kB
+Progress (3): 1.8/2.9 MB | 44/79 kB | 10/13 kB 
+Progress (3): 1.8/2.9 MB | 48/79 kB | 10/13 kB
+Progress (3): 1.8/2.9 MB | 48/79 kB | 11/13 kB
+Progress (3): 1.8/2.9 MB | 52/79 kB | 11/13 kB
+Progress (3): 1.8/2.9 MB | 52/79 kB | 13/13 kB
+Progress (3): 1.8/2.9 MB | 56/79 kB | 13/13 kB
+Progress (3): 1.8/2.9 MB | 56/79 kB | 13 kB   
+Progress (3): 1.8/2.9 MB | 61/79 kB | 13 kB
+Progress (3): 1.8/2.9 MB | 65/79 kB | 13 kB
+Progress (3): 1.8/2.9 MB | 65/79 kB | 13 kB
+Progress (3): 1.9/2.9 MB | 65/79 kB | 13 kB
+Progress (3): 1.9/2.9 MB | 65/79 kB | 13 kB
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar (13 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar
+Progress (2): 1.9/2.9 MB | 65/79 kB
+Progress (2): 1.9/2.9 MB | 65/79 kB
+Progress (2): 1.9/2.9 MB | 65/79 kB
+Progress (2): 1.9/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.0/2.9 MB | 65/79 kB
+Progress (2): 2.1/2.9 MB | 65/79 kB
+Progress (2): 2.1/2.9 MB | 65/79 kB
+Progress (2): 2.1/2.9 MB | 65/79 kB
+Progress (2): 2.1/2.9 MB | 65/79 kB
+Progress (2): 2.1/2.9 MB | 65/79 kB
+Progress (2): 2.1/2.9 MB | 65/79 kB
+Progress (2): 2.2/2.9 MB | 65/79 kB
+Progress (2): 2.2/2.9 MB | 65/79 kB
+Progress (2): 2.2/2.9 MB | 65/79 kB
+Progress (2): 2.2/2.9 MB | 65/79 kB
+Progress (2): 2.2/2.9 MB | 65/79 kB
+Progress (2): 2.2/2.9 MB | 65/79 kB
+Progress (2): 2.3/2.9 MB | 65/79 kB
+Progress (2): 2.3/2.9 MB | 65/79 kB
+Progress (2): 2.3/2.9 MB | 69/79 kB
+Progress (2): 2.3/2.9 MB | 73/79 kB
+Progress (2): 2.3/2.9 MB | 78/79 kB
+Progress (2): 2.3/2.9 MB | 79 kB   
+Progress (2): 2.3/2.9 MB | 79 kB
+Progress (2): 2.3/2.9 MB | 79 kB
+Progress (2): 2.3/2.9 MB | 79 kB
+Progress (2): 2.3/2.9 MB | 79 kB
+Progress (2): 2.4/2.9 MB | 79 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar (79 kB at 231 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (2): 2.4/2.9 MB | 3.8/108 kB
+Progress (2): 2.4/2.9 MB | 8.0/108 kB
+Progress (2): 2.4/2.9 MB | 11/108 kB 
+Progress (3): 2.4/2.9 MB | 11/108 kB | 3.8/33 kB
+Progress (3): 2.4/2.9 MB | 16/108 kB | 3.8/33 kB
+Progress (3): 2.4/2.9 MB | 16/108 kB | 8.0/33 kB
+Progress (3): 2.4/2.9 MB | 20/108 kB | 8.0/33 kB
+Progress (3): 2.4/2.9 MB | 20/108 kB | 12/33 kB 
+Progress (3): 2.4/2.9 MB | 24/108 kB | 12/33 kB
+Progress (3): 2.4/2.9 MB | 24/108 kB | 16/33 kB
+Progress (3): 2.4/2.9 MB | 28/108 kB | 16/33 kB
+Progress (3): 2.4/2.9 MB | 28/108 kB | 21/33 kB
+Progress (3): 2.4/2.9 MB | 28/108 kB | 25/33 kB
+Progress (3): 2.4/2.9 MB | 33/108 kB | 25/33 kB
+Progress (3): 2.4/2.9 MB | 37/108 kB | 25/33 kB
+Progress (3): 2.4/2.9 MB | 37/108 kB | 29/33 kB
+Progress (3): 2.4/2.9 MB | 41/108 kB | 29/33 kB
+Progress (3): 2.4/2.9 MB | 41/108 kB | 33 kB   
+Progress (3): 2.4/2.9 MB | 45/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 49/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 54/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 58/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 62/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 66/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 71/108 kB | 33 kB
+Progress (3): 2.4/2.9 MB | 71/108 kB | 33 kB
+Progress (3): 2.5/2.9 MB | 71/108 kB | 33 kB
+Progress (3): 2.5/2.9 MB | 71/108 kB | 33 kB
+Progress (3): 2.5/2.9 MB | 71/108 kB | 33 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar (33 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar
+Progress (2): 2.5/2.9 MB | 71/108 kB
+Progress (2): 2.5/2.9 MB | 71/108 kB
+Progress (2): 2.5/2.9 MB | 71/108 kB
+Progress (2): 2.6/2.9 MB | 71/108 kB
+Progress (2): 2.6/2.9 MB | 71/108 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 0.9/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 2.3/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 3.6/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 5.0/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 6.4/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 7.7/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 9.1/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 9.1/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 10/12 kB 
+Progress (3): 2.6/2.9 MB | 71/108 kB | 12/12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 12 kB   
+Progress (3): 2.6/2.9 MB | 71/108 kB | 12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 12 kB
+Progress (3): 2.6/2.9 MB | 71/108 kB | 12 kB
+Progress (3): 2.7/2.9 MB | 71/108 kB | 12 kB
+Progress (3): 2.7/2.9 MB | 71/108 kB | 12 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar (12 kB at 31 kB/s)
+Progress (2): 2.7/2.9 MB | 71/108 kB
+                                    
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar
+Progress (2): 2.7/2.9 MB | 71/108 kB
+Progress (2): 2.7/2.9 MB | 71/108 kB
+Progress (2): 2.7/2.9 MB | 71/108 kB
+Progress (2): 2.7/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 71/108 kB
+Progress (2): 2.8/2.9 MB | 75/108 kB
+Progress (2): 2.9/2.9 MB | 75/108 kB
+Progress (2): 2.9/2.9 MB | 79/108 kB
+Progress (2): 2.9/2.9 MB | 79/108 kB
+Progress (2): 2.9/2.9 MB | 83/108 kB
+Progress (2): 2.9/2.9 MB | 87/108 kB
+Progress (2): 2.9/2.9 MB | 87/108 kB
+Progress (2): 2.9 MB | 87/108 kB    
+Progress (2): 2.9 MB | 92/108 kB
+Progress (2): 2.9 MB | 96/108 kB
+Progress (2): 2.9 MB | 100/108 kB
+Progress (3): 2.9 MB | 100/108 kB | 3.8/594 kB
+Progress (3): 2.9 MB | 104/108 kB | 3.8/594 kB
+Progress (3): 2.9 MB | 104/108 kB | 8.0/594 kB
+Progress (3): 2.9 MB | 108 kB | 8.0/594 kB    
+Progress (3): 2.9 MB | 108 kB | 12/594 kB 
+Progress (3): 2.9 MB | 108 kB | 16/594 kB
+Progress (3): 2.9 MB | 108 kB | 21/594 kB
+Progress (3): 2.9 MB | 108 kB | 25/594 kB
+Progress (3): 2.9 MB | 108 kB | 29/594 kB
+Progress (3): 2.9 MB | 108 kB | 33/594 kB
+Progress (3): 2.9 MB | 108 kB | 37/594 kB
+Progress (3): 2.9 MB | 108 kB | 41/594 kB
+Progress (3): 2.9 MB | 108 kB | 46/594 kB
+Progress (3): 2.9 MB | 108 kB | 50/594 kB
+Progress (3): 2.9 MB | 108 kB | 54/594 kB
+Progress (3): 2.9 MB | 108 kB | 58/594 kB
+Progress (3): 2.9 MB | 108 kB | 63/594 kB
+Progress (3): 2.9 MB | 108 kB | 67/594 kB
+Progress (3): 2.9 MB | 108 kB | 71/594 kB
+Progress (3): 2.9 MB | 108 kB | 75/594 kB
+Progress (4): 2.9 MB | 108 kB | 75/594 kB | 0.9/50 kB
+Progress (4): 2.9 MB | 108 kB | 75/594 kB | 2.3/50 kB
+Progress (4): 2.9 MB | 108 kB | 75/594 kB | 3.6/50 kB
+Progress (4): 2.9 MB | 108 kB | 75/594 kB | 5.0/50 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 5.0/50 kB | 3.2/17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 6.4/50 kB | 3.2/17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 6.4/50 kB | 7.4/17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 7.7/50 kB | 7.4/17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 7.7/50 kB | 12/17 kB 
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 9.1/50 kB | 12/17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 9.1/50 kB | 16/17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 10/50 kB | 16/17 kB 
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 10/50 kB | 17 kB   
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 12/50 kB | 17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 13/50 kB | 17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 15/50 kB | 17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 16/50 kB | 17 kB
+Progress (5): 2.9 MB | 108 kB | 75/594 kB | 17/50 kB | 17 kB
+                                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar (108 kB at 242 kB/s)
+Progress (4): 2.9 MB | 75/594 kB | 19/50 kB | 17 kB
+                                                   
+Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+Progress (4): 2.9 MB | 75/594 kB | 23/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 27/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 28/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 32/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 36/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 40/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 45/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 49/50 kB | 17 kB
+Progress (4): 2.9 MB | 75/594 kB | 50 kB | 17 kB   
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar (2.9 MB at 6.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar (17 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-picocontainer/7.14.0/cucumber-picocontainer-7.14.0.jar
+Progress (2): 79/594 kB | 50 kB
+Progress (2): 84/594 kB | 50 kB
+Progress (2): 88/594 kB | 50 kB
+Progress (2): 92/594 kB | 50 kB
+Progress (2): 96/594 kB | 50 kB
+Progress (2): 101/594 kB | 50 kB
+Progress (2): 105/594 kB | 50 kB
+Progress (2): 109/594 kB | 50 kB
+Progress (2): 113/594 kB | 50 kB
+Progress (2): 130/594 kB | 50 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar (50 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar
+Progress (1): 146/594 kB
+Progress (1): 160/594 kB
+Progress (1): 176/594 kB
+Progress (1): 193/594 kB
+Progress (1): 209/594 kB
+Progress (1): 225/594 kB
+Progress (1): 242/594 kB
+Progress (1): 258/594 kB
+Progress (1): 274/594 kB
+Progress (2): 274/594 kB | 5.3 kB
+Progress (3): 274/594 kB | 5.3 kB | 3.8/6.8 kB
+Progress (3): 291/594 kB | 5.3 kB | 3.8/6.8 kB
+Progress (3): 291/594 kB | 5.3 kB | 6.8 kB    
+Progress (3): 307/594 kB | 5.3 kB | 6.8 kB
+Progress (3): 324/594 kB | 5.3 kB | 6.8 kB
+Progress (3): 340/594 kB | 5.3 kB | 6.8 kB
+Progress (3): 344/594 kB | 5.3 kB | 6.8 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 3.8/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 8.0/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 12/41 kB 
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 16/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 21/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 25/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 29/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 33/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 37/41 kB
+Progress (4): 344/594 kB | 5.3 kB | 6.8 kB | 41 kB   
+                                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar (6.8 kB at 13 kB/s)
+Progress (4): 344/594 kB | 5.3 kB | 41 kB | 7.7/326 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-picocontainer/7.14.0/cucumber-picocontainer-7.14.0.jar (5.3 kB at 10 kB/s)
+Progress (3): 344/594 kB | 41 kB | 16/326 kB
+Progress (3): 344/594 kB | 41 kB | 29/326 kB
+Progress (3): 344/594 kB | 41 kB | 45/326 kB
+Progress (3): 344/594 kB | 41 kB | 61/326 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar (41 kB at 80 kB/s)
+Progress (2): 344/594 kB | 78/326 kB
+Progress (2): 344/594 kB | 94/326 kB
+Progress (2): 344/594 kB | 111/326 kB
+Progress (2): 344/594 kB | 127/326 kB
+Progress (2): 344/594 kB | 143/326 kB
+Progress (2): 344/594 kB | 160/326 kB
+Progress (2): 344/594 kB | 176/326 kB
+Progress (2): 344/594 kB | 193/326 kB
+Progress (2): 344/594 kB | 209/326 kB
+Progress (2): 344/594 kB | 225/326 kB
+Progress (2): 360/594 kB | 225/326 kB
+Progress (2): 360/594 kB | 242/326 kB
+Progress (2): 377/594 kB | 242/326 kB
+Progress (2): 393/594 kB | 242/326 kB
+Progress (2): 393/594 kB | 258/326 kB
+Progress (2): 393/594 kB | 274/326 kB
+Progress (2): 410/594 kB | 274/326 kB
+Progress (2): 410/594 kB | 291/326 kB
+Progress (2): 426/594 kB | 291/326 kB
+Progress (2): 426/594 kB | 307/326 kB
+Progress (2): 442/594 kB | 307/326 kB
+Progress (2): 442/594 kB | 324/326 kB
+Progress (2): 459/594 kB | 324/326 kB
+Progress (2): 459/594 kB | 326 kB    
+Progress (2): 475/594 kB | 326 kB
+Progress (2): 492/594 kB | 326 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar (326 kB at 578 kB/s)
+Progress (1): 508/594 kB
+Progress (1): 524/594 kB
+Progress (1): 541/594 kB
+Progress (1): 557/594 kB
+Progress (1): 573/594 kB
+Progress (1): 590/594 kB
+Progress (1): 594 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar (594 kB at 997 kB/s)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sauce-automation ---
+[INFO] Deleting C:\Users\nikkale\Test\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sauce-automation ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ sauce-automation ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug target 11] to target\classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] /C:/Users/nikkale/Test/src/main/java/com/saucelabs/SauceLabsConfig.java: C:\Users\nikkale\Test\src\main\java\com\saucelabs\SauceLabsConfig.java uses or overrides a deprecated API.
+[INFO] /C:/Users/nikkale/Test/src/main/java/com/saucelabs/SauceLabsConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sauce-automation ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ sauce-automation ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 7 source files with javac [debug target 11] to target\test-classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sauce-automation ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.saucelabs.runners.CucumberTestRunner
+
+Scenario: Successful login with valid credentials # src/test/resources/features/Login.feature:9
+mvn : [main] INFO com.saucelabs.steps.LoginSteps - ========== TEST EXECUTION 
+STARTED ==========
+At line:1 char:138
++ ... s\nikkale\Test; mvn clean test -Dtest=CucumberTestRunner 2>&1 | Out-F ...
++                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([main] INFO com...RTED ========== 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 
+149.0.7827.55 (resolved driver for Chrome 149)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting 
+webdriver.chrome.driver as C:\Users\nikkale\.cache\selenium\chromedriver\win64\
+149.0.7827.55\chromedriver.exe
+Jun 11, 2026 8:22:29 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 11, 2026 8:22:29 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.102. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+[main] INFO com.saucelabs.WebDriverFactory - Γ£ô Local Chrome WebDriver 
+initialized
+[main] INFO com.saucelabs.steps.LoginSteps - WebDriver and Page Objects 
+initialized
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Navigate to OrangeHRM login 
+page
+[main] INFO com.saucelabs.pages.LoginPage - Navigated to OrangeHRM login page
+  Given user navigates to OrangeHRM login page    # com.saucelabs.steps.LoginSteps.userNavigatesToLoginPage()
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Enter username - Admin
+[main] INFO com.saucelabs.pages.LoginPage - Entered username: Admin
+  When user enters username "Admin"               # com.saucelabs.steps.LoginSteps.userEntersUsername(java.lang.String)
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Enter password
+[main] INFO com.saucelabs.pages.LoginPage - Entered password: ****
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Click login button
+  And user enters password "admin123"             # com.saucelabs.steps.LoginSteps.userEntersPassword(java.lang.String)
+[main] INFO com.saucelabs.pages.LoginPage - Clicked login button
+  And user clicks login button                    # com.saucelabs.steps.LoginSteps.userClicksLoginButton()
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Verify dashboard page is 
+displayed
+[main] INFO com.saucelabs.pages.DashboardPage - Dashboard page is displayed
+  Then user should see the dashboard page         # com.saucelabs.steps.LoginSteps.userShouldSeeDashboard()
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Verify page title is - 
+OrangeHRM
+[main] INFO com.saucelabs.steps.LoginSteps - Page title: OrangeHRM
+  And user should see the page title "OrangeHRM"  # com.saucelabs.steps.LoginSteps.userShouldSeePageTitle(java.lang.String)
+[main] INFO com.saucelabs.steps.LoginSteps - Γ£ô WebDriver closed
+[main] INFO com.saucelabs.steps.LoginSteps - ========== TEST EXECUTION 
+COMPLETED ==========
+
+
+Scenario: Login and verify current URL            # src/test/resources/features/Login.feature:16
+[main] INFO com.saucelabs.steps.LoginSteps - ========== TEST EXECUTION STARTED 
+==========
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 
+149.0.7827.55 (resolved driver for Chrome 149)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting 
+webdriver.chrome.driver as C:\Users\nikkale\.cache\selenium\chromedriver\win64\
+149.0.7827.55\chromedriver.exe
+Jun 11, 2026 8:22:38 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 11, 2026 8:22:38 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.102. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+[main] INFO com.saucelabs.WebDriverFactory - Γ£ô Local Chrome WebDriver 
+initialized
+[main] INFO com.saucelabs.steps.LoginSteps - WebDriver and Page Objects 
+initialized
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Navigate to OrangeHRM login 
+page
+[main] INFO com.saucelabs.pages.LoginPage - Navigated to OrangeHRM login page
+  Given user navigates to OrangeHRM login page    # com.saucelabs.steps.LoginSteps.userNavigatesToLoginPage()
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Enter username - Admin
+[main] INFO com.saucelabs.pages.LoginPage - Entered username: Admin
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Enter password
+  When user enters username "Admin"               # com.saucelabs.steps.LoginSteps.userEntersUsername(java.lang.String)
+  And user enters password "admin123"             # com.saucelabs.steps.LoginSteps.userEntersPassword(java.lang.String)
+[main] INFO com.saucelabs.pages.LoginPage - Entered password: ****
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Click login button
+[main] INFO com.saucelabs.pages.LoginPage - Clicked login button
+  And user clicks login button                    # com.saucelabs.steps.LoginSteps.userClicksLoginButton()
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Verify dashboard URL
+[main] INFO com.saucelabs.steps.LoginSteps - Current URL: 
+https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+  Then user should be redirected to dashboard URL # com.saucelabs.steps.LoginSteps.userShouldBeRedirectedToDashboard()
+[main] INFO com.saucelabs.steps.LoginSteps - Γ£ô WebDriver closed
+[main] INFO com.saucelabs.steps.LoginSteps - ========== TEST EXECUTION 
+COMPLETED ==========
+
+
+Scenario: Verify login page is displayed       # src/test/resources/features/Login.feature:22
+[main] INFO com.saucelabs.steps.LoginSteps - ========== TEST EXECUTION STARTED 
+==========
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 
+149.0.7827.55 (resolved driver for Chrome 149)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting 
+webdriver.chrome.driver as C:\Users\nikkale\.cache\selenium\chromedriver\win64\
+149.0.7827.55\chromedriver.exe
+Jun 11, 2026 8:22:46 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 11, 2026 8:22:46 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.102. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+[main] INFO com.saucelabs.WebDriverFactory - Γ£ô Local Chrome WebDriver 
+initialized
+[main] INFO com.saucelabs.steps.LoginSteps - WebDriver and Page Objects 
+initialized
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Navigate to OrangeHRM login 
+page
+[main] INFO com.saucelabs.pages.LoginPage - Navigated to OrangeHRM login page
+  Given user navigates to OrangeHRM login page # com.saucelabs.steps.LoginSteps.userNavigatesToLoginPage()
+[main] INFO com.saucelabs.steps.LoginSteps - Step: Verify login page is 
+displayed
+  Then login page should be displayed          # com.saucelabs.steps.LoginSteps.loginPageShouldBeDisplayed()
+[main] INFO com.saucelabs.steps.LoginSteps - Γ£ô WebDriver closed
+[main] INFO com.saucelabs.steps.LoginSteps - ========== TEST EXECUTION 
+COMPLETED ==========
+
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.555 s - in com.saucelabs.runners.CucumberTestRunner
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.636 s
+[INFO] Finished at: 2026-06-11T20:22:50+05:30
+[INFO] ------------------------------------------------------------------------

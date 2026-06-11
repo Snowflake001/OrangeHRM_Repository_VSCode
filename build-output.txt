@@ -1,0 +1,409 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.saucelabs:sauce-automation >-------------------
+[INFO] Building Sauce Labs Automation 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sauce-automation ---
+[INFO] Deleting C:\Users\nikkale\Test\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sauce-automation ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ sauce-automation ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug target 11] to target\classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] /C:/Users/nikkale/Test/src/main/java/com/saucelabs/SauceLabsConfig.java: C:\Users\nikkale\Test\src\main\java\com\saucelabs\SauceLabsConfig.java uses or overrides a deprecated API.
+[INFO] /C:/Users/nikkale/Test/src/main/java/com/saucelabs/SauceLabsConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sauce-automation ---
+[INFO] skip non existing resourceDirectory C:\Users\nikkale\Test\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ sauce-automation ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 2 source files with javac [debug target 11] to target\test-classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] /C:/Users/nikkale/Test/src/test/java/com/saucelabs/BaseTest.java: C:\Users\nikkale\Test\src\test\java\com\saucelabs\BaseTest.java uses or overrides a deprecated API.
+[INFO] /C:/Users/nikkale/Test/src/test/java/com/saucelabs/BaseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sauce-automation ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.saucelabs.SampleWebTest
+mvn : Jun 11, 2026 8:08:07 PM 
+org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer 
+createTracer
+At line:1 char:138
++ ... ven-3.9.6\bin"; cd C:\Users\nikkale\Test; mvn clean test 2>&1 | Out-F ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Jun 11, 2026 8:...er createTracer 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+INFO: Using OpenTelemetry for tracing
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 14.884 s <<< FAILURE! - in com.saucelabs.SampleWebTest
+[ERROR] com.saucelabs.SampleWebTest.testPageLoadPerformance  Time elapsed: 6.39 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'USHYDNIKKALW8', ip: '192.168.31.61'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:148)
+	at com.saucelabs.BaseTest.setupWebDriver(BaseTest.java:46)
+	at com.saucelabs.BaseTest.setUp(BaseTest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.io.IOException: too many authentication attempts. Limit: 3
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:450)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	... 33 more
+Caused by: java.io.IOException: too many authentication attempts. Limit: 3
+	at java.net.http/jdk.internal.net.http.AuthenticationFilter.response(AuthenticationFilter.java:325)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseFilters(MultiExchange.java:253)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$6(MultiExchange.java:440)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2179)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:610)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:536)
+	at java.net.http/jdk.internal.net.http.Http1Response$Receiver.accept(Http1Response.java:527)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.tryAsyncReceive(Http1Response.java:583)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:233)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$DelegateWrapper.onNext(SSLTube.java:210)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:492)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:316)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:198)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:465)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[ERROR] com.saucelabs.SampleWebTest.testBasicNavigation  Time elapsed: 4.013 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'USHYDNIKKALW8', ip: '192.168.31.61'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:148)
+	at com.saucelabs.BaseTest.setupWebDriver(BaseTest.java:46)
+	at com.saucelabs.BaseTest.setUp(BaseTest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.io.IOException: too many authentication attempts. Limit: 3
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:450)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	... 33 more
+Caused by: java.io.IOException: too many authentication attempts. Limit: 3
+	at java.net.http/jdk.internal.net.http.AuthenticationFilter.response(AuthenticationFilter.java:325)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseFilters(MultiExchange.java:253)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$6(MultiExchange.java:440)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2179)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:610)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:536)
+	at java.net.http/jdk.internal.net.http.Http1Response$Receiver.accept(Http1Response.java:527)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.tryAsyncReceive(Http1Response.java:583)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:233)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$DelegateWrapper.onNext(SSLTube.java:210)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:492)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:316)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:198)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:465)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[ERROR] com.saucelabs.SampleWebTest.testSauceLabsWebsite  Time elapsed: 4.403 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'USHYDNIKKALW8', ip: '192.168.31.61'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:148)
+	at com.saucelabs.BaseTest.setupWebDriver(BaseTest.java:46)
+	at com.saucelabs.BaseTest.setUp(BaseTest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.io.IOException: too many authentication attempts. Limit: 3
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:450)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	... 33 more
+Caused by: java.io.IOException: too many authentication attempts. Limit: 3
+	at java.net.http/jdk.internal.net.http.AuthenticationFilter.response(AuthenticationFilter.java:325)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseFilters(MultiExchange.java:253)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$6(MultiExchange.java:440)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2179)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:610)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:536)
+	at java.net.http/jdk.internal.net.http.Http1Response$Receiver.accept(Http1Response.java:527)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.tryAsyncReceive(Http1Response.java:583)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:233)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$DelegateWrapper.onNext(SSLTube.java:210)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:492)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:316)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:198)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:465)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SampleWebTest>BaseTest.setUp:30->BaseTest.setupWebDriver:46 ┬╗ SessionNotCreated Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'USHYDNIKKALW8', ip: '192.168.31.61'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}
+[ERROR]   SampleWebTest>BaseTest.setUp:30->BaseTest.setupWebDriver:46 ┬╗ SessionNotCreated Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'USHYDNIKKALW8', ip: '192.168.31.61'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}
+[ERROR]   SampleWebTest>BaseTest.setUp:30->BaseTest.setupWebDriver:46 ┬╗ SessionNotCreated Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'USHYDNIKKALW8', ip: '192.168.31.61'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, sauce:options: {build: Sauce Labs Automation Build, name: SampleWebTest, recordScreenshots: true, recordVideo: true}}
+[INFO] 
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.867 s
+[INFO] Finished at: 2026-06-11T20:08:22+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0:test (default-test) on project sauce-automation: 
+[ERROR] 
+[ERROR] Please refer to C:\Users\nikkale\Test\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
